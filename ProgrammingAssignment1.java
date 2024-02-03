@@ -48,7 +48,7 @@
 
     public static void main(String[] args) {
         String[] enrollments = {null, "2022Bit007", "2021bme007", "2025bcs007"};
-        SY2022bit039 data = new SY2022bit039();
+        SY2022bit007data = new SY2022bit007();
         int count = data.getValidRegistrationsCount(enrollments);
         System.out.println(count);
     }
